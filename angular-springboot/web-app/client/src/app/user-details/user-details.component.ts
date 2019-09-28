@@ -10,7 +10,7 @@ import { Observable } from 'rxjs';
 })
 export class UserDetailsComponent implements OnInit {
 
-  user: User;
+  user: User = <User>{};
 
   constructor(private userService: UserService) { }
 
