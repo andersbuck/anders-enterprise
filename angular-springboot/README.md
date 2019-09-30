@@ -40,6 +40,11 @@ To run tests.
 gradle test
 ```
 
+## References
+
+* [Angular Material](https://material.angular.io/)
+* [Angular Flex Layout](https://github.com/angular/flex-layout/wiki/API-Documentation/)
+
 ## Built With
 
 * [Gradle](https://gradle.org/) - Dependency Management
