@@ -1,4 +1,4 @@
-# Angular / Spring Boot Stack Demo
+# Angular / Spring Boot - Stack Demo
 
 A demo of a Angular / Spring Boot stack
 
