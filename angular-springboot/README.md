@@ -8,15 +8,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-```
-Gradle - [Installation](https://gradle.org/install/)
-Nodes.js - [Installation](https://nodejs.org/en/download/)
-Angular CLI - [Installation](https://angular.io/cli)
-```
+* Gradle - [Installation](https://gradle.org/install/)
+* Nodes.js - [Installation](https://nodejs.org/en/download/)
+* Angular CLI - [Installation](https://angular.io/cli)
 
 ### Spring Boot
 
-Run the build from the root of web-app.
+Run the build from the web-app directory.
 
 ```
 gradle build
@@ -32,7 +30,7 @@ Open endpoint from browser http://localhost:8080/web-app/home
 
 ### Angular
 
-Start the Angular server fromt the root of the web-app/client.
+Start the Angular server from the web-app/client directory.
 
 ```
 ng serve --open
