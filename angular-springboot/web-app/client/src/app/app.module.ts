@@ -7,18 +7,22 @@ import { UserDetailsComponent } from './user-details/user-details.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatCardModule } from '@angular/material/card';
+import { LoginFormComponent } from './login-form/login-form.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserDetailsComponent
+    UserDetailsComponent,
+    LoginFormComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
-    MatCardModule
+    MatCardModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
