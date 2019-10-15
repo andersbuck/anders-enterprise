@@ -57,6 +57,7 @@ gradle test
 
 * [Angular Material](https://material.angular.io/)
 * [Angular Flex Layout](https://github.com/angular/flex-layout/wiki/API-Documentation/)
+* [ModelMapper](http://modelmapper.org/getting-started/)
 
 ## Built With
 
