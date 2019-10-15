@@ -1,4 +1,4 @@
-package com.andersbuck.app.webapp.domain.model;
+package com.andersbuck.app.webapp.domain.models;
 
 import lombok.Getter;
 import lombok.Setter;
