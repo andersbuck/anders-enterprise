@@ -40,6 +40,11 @@ ng serve --open
 
 After starting the local server a gradle build will automatically restart the server any time there is a change to the source code same goes for Angular.
 
+Debugging
+```
+gradle bootRun --debug-jvm
+```
+
 ## Running the tests
 
 To run tests.
