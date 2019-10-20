@@ -11,13 +11,18 @@ export class UserService {
 
   private user: User = <User>{};
   private userUrl = 'http://localhost:8080/web-app/user';
+  private errorUrl = 'http://localhost:8080/web-app/causeerror';
 
   constructor(private http: HttpClient) { }
 
   getUser(): Observable<User> {
     return this.http.get<User>(this.userUrl).pipe(
       catchError(this.handleError<User>('getUser', <User>{}))
-    );;
+    );
+  }
+
+  getError(): Observable<any> {
+    return this.http.get<any>(this.errorUrl);
   }
 
   /**

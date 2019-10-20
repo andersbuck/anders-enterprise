@@ -23,3 +23,17 @@ h1 {
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.danger {
+  background-color: #f44336;
+  color: white;
+  font-weight: bold;
+}
+
+/* Color the snackbar 'X' button */
+.danger .mat-button-wrapper {
+  color: white;
+}
+.success {
+  background-color: #36f456;  
+} 
