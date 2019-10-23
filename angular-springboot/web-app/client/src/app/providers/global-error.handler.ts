@@ -31,7 +31,7 @@ export class GlobalErrorHandler implements ErrorHandler {
             stackTrace = errorService.getClientStack(error);
             notifier.showError(message);
         }
-        
+
         // TODO only log client errors
         logger.logError(message, stackTrace);
 
