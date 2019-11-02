@@ -25,16 +25,20 @@ export class GlobalErrorHandler implements ErrorHandler {
             message = errorService.getServerMessage(error);
             stackTrace = errorService.getServerStack(error);
             notifier.showError(message);
+            logger.logError('HttpErrorResponse handled by client', 'No Stack for HttpErrorResponse');
+            console.log(error.name);
         } else {
             // Client Error
             message = errorService.getClientMessage(error);
             stackTrace = errorService.getClientStack(error);
             notifier.showError(message);
+            logger.logError(message, stackTrace);
+            console.log(error);
         }
 
         // TODO only log client errors
         logger.logError(message, stackTrace);
 
-        console.error(error);
+        console.log(error);
     }
 }
