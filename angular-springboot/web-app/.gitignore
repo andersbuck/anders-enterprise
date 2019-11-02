@@ -34,3 +34,6 @@ bin/
 
 ### Sonar ###
 .sonarlint/
+
+### Angular ###
+!**/client/dist/**
