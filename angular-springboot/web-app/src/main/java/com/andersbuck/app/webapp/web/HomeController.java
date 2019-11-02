@@ -27,10 +27,4 @@ public class HomeController {
     public User user() {
         return userSrv.fetchUser(1L);
     }
-
-    @GetMapping("/causeerror")
-    public void causeError() {
-        System.out.println("error");
-        throw new IllegalArgumentException("whoops");
-    }
 }

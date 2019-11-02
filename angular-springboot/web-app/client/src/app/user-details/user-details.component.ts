@@ -16,15 +16,10 @@ export class UserDetailsComponent implements OnInit {
 
   ngOnInit() {
     this.getUser();
-    this.getError();
   }
 
   getUser(): void {
     this.userService.getUser().subscribe((user: User) => this.user = user);
-  }
-
-  getError(): void {
-    this.userService.getError().subscribe();
   }
 
 }
