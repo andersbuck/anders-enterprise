@@ -35,6 +35,7 @@ Start the Angular server from the web-app/client directory.
 ```
 ng serve --open
 ```
+Open page from browser http://localhost:4200/carvoyant
 
 ## Development
 
